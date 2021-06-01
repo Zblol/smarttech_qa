@@ -12,8 +12,5 @@ class BasePage:
     def open(self):
         self.browser.get(self.url)
 
-    def waiting(self, sec):
-        WebDriverWait(self.browser, sec)
-
     def move_to_element(self, element):
         self.browser.execute_script("arguments[0].scrollIntoView();", element)
