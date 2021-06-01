@@ -2,7 +2,7 @@
 
 Для запуска теста необходимо скачать:
 - интерпритатор Python (https://www.python.org/downloads/)
-- Pip (в консоли введите $ pip install -U pytest)
+- Pytest (в консоли введите $ pip install -U pytest)
 - ChromeDriver (https://chromedriver.chromium.org/downloads)
 - ChromeDriver разместить в корневой папке с тесотом
 
